@@ -18,10 +18,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hmdsefi/channelize/auth"
-	"github.com/hmdsefi/channelize/internal/common/errorx"
-	"github.com/hmdsefi/channelize/internal/common/log"
-	"github.com/hmdsefi/channelize/internal/common/utils"
+	"github.com/krismp/channelize/auth"
+	"github.com/krismp/channelize/pkg/common/errorx"
+	"github.com/krismp/channelize/pkg/common/log"
+	"github.com/krismp/channelize/pkg/common/utils"
 )
 
 const (

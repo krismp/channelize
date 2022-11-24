@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hmdsefi/channelize/internal/channel"
-	"github.com/hmdsefi/channelize/internal/common/errorx"
-	"github.com/hmdsefi/channelize/internal/common/validation"
+	"github.com/krismp/channelize/pkg/channel"
+	"github.com/krismp/channelize/pkg/common/errorx"
+	"github.com/krismp/channelize/pkg/common/validation"
 )
 
 // TestUnmarshalMessageIn unmarshal a correct message and a message with json syntax error.

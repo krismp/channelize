@@ -6,15 +6,16 @@ package main
 
 import (
 	"context"
-	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"log"
 	"net/http"
 	"os"
 	"os/signal"
 	"syscall"
 
+	"github.com/prometheus/client_golang/prometheus/promhttp"
+
 	"github.com/gorilla/websocket"
-	"github.com/hmdsefi/channelize"
+	"github.com/krismp/channelize"
 )
 
 func main() {

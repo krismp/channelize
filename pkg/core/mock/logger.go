@@ -5,9 +5,10 @@
 package mock
 
 import (
-	"github.com/hmdsefi/channelize/internal/common/log"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/krismp/channelize/pkg/common/log"
+	"github.com/stretchr/testify/assert"
 )
 
 type Logger struct {

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hmdsefi/channelize/internal/common/utils"
+	"github.com/krismp/channelize/pkg/common/utils"
 )
 
 const (

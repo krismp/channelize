@@ -7,8 +7,8 @@ package mock
 import (
 	"context"
 
-	"github.com/hmdsefi/channelize/internal/channel"
-	"github.com/hmdsefi/channelize/internal/common"
+	"github.com/krismp/channelize/pkg/channel"
+	"github.com/krismp/channelize/pkg/common"
 )
 
 type Store struct {

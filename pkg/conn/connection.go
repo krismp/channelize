@@ -14,11 +14,11 @@ import (
 	"github.com/gorilla/websocket"
 	uuid "github.com/satori/go.uuid"
 
-	"github.com/hmdsefi/channelize/auth"
-	"github.com/hmdsefi/channelize/internal/common"
-	"github.com/hmdsefi/channelize/internal/common/errorx"
-	"github.com/hmdsefi/channelize/internal/common/utils"
-	"github.com/hmdsefi/channelize/log"
+	"github.com/krismp/channelize/auth"
+	"github.com/krismp/channelize/log"
+	"github.com/krismp/channelize/pkg/common"
+	"github.com/krismp/channelize/pkg/common/errorx"
+	"github.com/krismp/channelize/pkg/common/utils"
 )
 
 // helper connects connection to the storage.

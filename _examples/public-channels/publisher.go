@@ -11,7 +11,7 @@ import (
 
 	uuid "github.com/satori/go.uuid"
 
-	"github.com/hmdsefi/channelize/internal/channel"
+	"github.com/krismp/channelize/pkg/channel"
 )
 
 const (

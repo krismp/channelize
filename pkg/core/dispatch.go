@@ -9,10 +9,10 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/hmdsefi/channelize/internal/channel"
-	"github.com/hmdsefi/channelize/internal/common"
-	"github.com/hmdsefi/channelize/internal/common/errorx"
-	"github.com/hmdsefi/channelize/log"
+	"github.com/krismp/channelize/log"
+	"github.com/krismp/channelize/pkg/channel"
+	"github.com/krismp/channelize/pkg/common"
+	"github.com/krismp/channelize/pkg/common/errorx"
 )
 
 // store stores connections per channel.

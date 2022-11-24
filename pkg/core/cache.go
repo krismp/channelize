@@ -8,8 +8,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/hmdsefi/channelize/internal/channel"
-	"github.com/hmdsefi/channelize/internal/common"
+	"github.com/krismp/channelize/pkg/channel"
+	"github.com/krismp/channelize/pkg/common"
 )
 
 type collector interface {

@@ -12,14 +12,14 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/hmdsefi/channelize/auth"
-	"github.com/hmdsefi/channelize/internal/channel"
-	"github.com/hmdsefi/channelize/internal/common"
-	internalLog "github.com/hmdsefi/channelize/internal/common/log"
-	"github.com/hmdsefi/channelize/internal/conn"
-	"github.com/hmdsefi/channelize/internal/core"
-	"github.com/hmdsefi/channelize/internal/metrics"
-	"github.com/hmdsefi/channelize/log"
+	"github.com/krismp/channelize/auth"
+	"github.com/krismp/channelize/log"
+	"github.com/krismp/channelize/pkg/channel"
+	"github.com/krismp/channelize/pkg/common"
+	internalLog "github.com/krismp/channelize/pkg/common/log"
+	"github.com/krismp/channelize/pkg/conn"
+	"github.com/krismp/channelize/pkg/core"
+	"github.com/krismp/channelize/pkg/metrics"
 )
 
 // connectionHelper is a middleware between connection and storage. It helps

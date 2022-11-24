@@ -7,10 +7,10 @@ package channelize
 import (
 	"context"
 
-	"github.com/hmdsefi/channelize/internal/channel"
-	"github.com/hmdsefi/channelize/internal/common"
-	"github.com/hmdsefi/channelize/internal/conn"
-	"github.com/hmdsefi/channelize/internal/core"
+	"github.com/krismp/channelize/pkg/channel"
+	"github.com/krismp/channelize/pkg/common"
+	"github.com/krismp/channelize/pkg/conn"
+	"github.com/krismp/channelize/pkg/core"
 )
 
 // store is an interface this provides the ability of storing mapping
