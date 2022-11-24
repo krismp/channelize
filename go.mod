@@ -1,4 +1,4 @@
-module github.com/krismp/channelize
+module github.com/krismp/channelize/v1
 
 go 1.17
 
